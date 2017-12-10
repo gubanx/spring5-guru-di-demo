@@ -2,3 +2,11 @@ jms:
   user: jms
   password: yyy
   url: http://localhost:9090
+
+---
+
+spring:
+  profiles: es
+
+jms:
+  user: jms en español!!!
